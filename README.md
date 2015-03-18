@@ -13,4 +13,9 @@ This example:
 * converts it to .wav (16 bit little endian) (See AudioConverter)
 * Stores it in the Documents folder where the user can access it via iTunes sharing.
 
-There is also a progress bar update as the process continues.
+There is also a progress bar update as the process continues, and some stub code showing how you could process
+the incoming audio if you wanted.
+
+# Keywords
+
+**AVFoundation, audio, conversion, formats, iTunes, iTunes Media Library, iOS**
