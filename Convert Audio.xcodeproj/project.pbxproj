@@ -14,6 +14,7 @@
 		4085B4971AB8859200A3E8B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4085B4961AB8859200A3E8B5 /* Images.xcassets */; };
 		4085B49A1AB8859200A3E8B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4085B4981AB8859200A3E8B5 /* LaunchScreen.xib */; };
 		4085B4A61AB8859200A3E8B5 /* Convert_AudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4085B4A51AB8859200A3E8B5 /* Convert_AudioTests.m */; };
+		4085B4B11AB88D8C00A3E8B5 /* AudioConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4085B4B01AB88D8C00A3E8B5 /* AudioConverter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		4085B49F1AB8859200A3E8B5 /* Convert AudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Convert AudioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4085B4A41AB8859200A3E8B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4085B4A51AB8859200A3E8B5 /* Convert_AudioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Convert_AudioTests.m; sourceTree = "<group>"; };
+		4085B4AF1AB88D8C00A3E8B5 /* AudioConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioConverter.h; sourceTree = "<group>"; };
+		4085B4B01AB88D8C00A3E8B5 /* AudioConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioConverter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				4085B4961AB8859200A3E8B5 /* Images.xcassets */,
 				4085B4981AB8859200A3E8B5 /* LaunchScreen.xib */,
 				4085B4891AB8859200A3E8B5 /* Supporting Files */,
+				4085B4AF1AB88D8C00A3E8B5 /* AudioConverter.h */,
+				4085B4B01AB88D8C00A3E8B5 /* AudioConverter.m */,
 			);
 			path = "Convert Audio";
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4085B4921AB8859200A3E8B5 /* ViewController.m in Sources */,
+				4085B4B11AB88D8C00A3E8B5 /* AudioConverter.m in Sources */,
 				4085B48F1AB8859200A3E8B5 /* AppDelegate.m in Sources */,
 				4085B48C1AB8859200A3E8B5 /* main.m in Sources */,
 			);

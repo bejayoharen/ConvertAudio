@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
+#import "AudioConverter.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <MPMediaPickerControllerDelegate,AudioConverterDelegate>
 
+- (IBAction)selectAudioPressed:(id)sender;
+@property (weak, nonatomic) IBOutlet UIView *overlayView;
+@property (weak, nonatomic) IBOutlet UIProgressView *progressView;
 
 @end
-
